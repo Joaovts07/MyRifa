@@ -1,11 +1,10 @@
-package com.picpay.desafio.android.domain.usecase
+package com.example.myrifa.domain.usecase
 
-import com.picpay.desafio.android.domain.model.User
+import com.example.myrifa.domain.model.User
 import kotlinx.coroutines.flow.Flow
 
 interface GetUserUseCase {
 
     operator fun invoke(): Flow<List<User>>
-
 
 }

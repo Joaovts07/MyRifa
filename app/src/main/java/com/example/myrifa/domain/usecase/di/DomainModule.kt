@@ -1,7 +1,7 @@
-package com.picpay.desafio.android.domain.usecase.di
+package com.example.myrifa.domain.usecase.di
 
-import com.picpay.desafio.android.domain.usecase.GetUserUseCase
-import com.picpay.desafio.android.domain.usecase.GetUserUseCaseImpl
+import com.example.myrifa.domain.usecase.GetUserUseCase
+import com.example.myrifa.domain.usecase.GetUserUseCaseImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
